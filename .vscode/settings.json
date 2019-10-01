@@ -1,5 +1,6 @@
 {
     "python.linting.pylintEnabled": true,
     "python.linting.enabled": true,
-    "python.pythonPath": "/Users/danieldeutsch/.virtualenvs/PetClassification-nVUGE6qx/bin/python"
+    "python.pythonPath": "/Users/danieldeutsch/.virtualenvs/PetClassification-nVUGE6qx/bin/python",
+    "python.formatting.provider": "black"
 }

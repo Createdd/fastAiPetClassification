@@ -12,4 +12,5 @@ regexPattern=re.compile(r'/([^/]+)_\d+.jpg$')
 
 data=ImageDataBunch.from_name_re(imagePath, fileNames, regexPattern, ds_tfms=get_transforms(), size=224, bs=batchsize, num_workers=0).normalize(imagenet_stats)
 
+print('printtest')
 

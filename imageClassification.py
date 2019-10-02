@@ -2,8 +2,13 @@
 """
 #%%
 import re
-# from fastai import *
-from fastai.vision import get_image_files, ImageDataBunch, untar_data, get_transforms, imagenet_stats
+from fastai.vision import (
+    get_image_files,
+    get_transforms,
+    ImageDataBunch,
+    imagenet_stats,
+    untar_data,
+)
 
 batchsize = 64
 path = untar_data("./data/oxford-iiit-pet")

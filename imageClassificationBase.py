@@ -1,4 +1,4 @@
-
+# pylint: disable-all
 #%%
 from fastai import *
 from fastai.vision import *

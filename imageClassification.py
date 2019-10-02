@@ -1,6 +1,8 @@
 #%%
-from fastai import *
-from fastai.vision import *
+"""Classify pictures of animals
+"""
+from fastai import (untar_data)
+from fastai.vision import (get_image_files)
 
 batchsize = 64
 path = untar_data("./data/oxford-iiit-pet")
@@ -21,4 +23,3 @@ data = ImageDataBunch.from_name_re(
 ).normalize(imagenet_stats)
 
 print("printtest")
-
